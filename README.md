@@ -26,7 +26,7 @@ The objective is to minimize the sum of the makespan and the total job tardiness
 The project requires Python and Google OR-Tools. Install OR-Tools from the project directory with:
 
 ```bash
-python -m pip install ortools
+python -m pip install -r requirements.txt
 ```
 
 ## Run the example
