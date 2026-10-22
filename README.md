@@ -27,3 +27,23 @@ The project requires Python and Google OR-Tools. Install OR-Tools from the proje
 
 ```bash
 python -m pip install ortools
+```
+
+## Run the example
+
+From the project directory, run:
+
+```bash
+python esempio.py
+```
+
+The script prints the solver status, objective value, makespan, job tardiness, and operation schedule.
+
+## Run the tests
+
+From the project directory, run:
+
+```bash
+python -m unittest -v
+```
+The test command reports the result of each test.
